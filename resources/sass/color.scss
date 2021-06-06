@@ -1,0 +1,132 @@
+$entree : blue;
+$viande:rgb(142, 68, 173,0.7) !important;
+$dessert : rgb(234, 134, 133,0.7)!important;
+$salade :rgb(76, 209, 55,0.7)!important;
+$soupe:rgb(225, 177, 44,0.7)!important;
+$plats:rgb(255, 102, 0,0.7)!important;
+
+
+.entrée {
+    color : $entree;
+    fill:$entree;
+}
+
+.entréeli:before {
+    background : $entree;
+}
+.entrée li:after {
+    border-left-color:$entree;
+}
+.entrée dd {
+    background: $entree;
+    color:white;
+}
+.entrée_titre {
+    background: $entree;
+    color:white;
+}
+.soupes {
+    color : $soupe;
+    fill:$soupe;
+}
+.soupes_titre {
+    background-color : $soupe;
+}
+.soupes li:before {
+    background : $soupe;
+}
+.soupes li:after {
+    border-left-color:$soupe;
+}
+
+.soupes dd {
+    background: $soupe;
+    color:white;
+}
+
+.viande {
+    color : $viande;
+    fill : $viande;
+}
+.viande_titre {
+    background-color : $viande;
+}
+.viande li:before {
+    background : $viande;
+}
+.viande li:after {
+    border-left-color:$viande;
+}
+
+.viande dd {
+    background: $viande;
+    color:white;
+}
+.dessert {
+    color:$dessert;
+    fill:$dessert;
+
+}
+.dessert_titre {
+    background-color:$dessert;
+}
+
+.dessert dd {
+    background : $dessert;
+    color:white;
+}
+
+.dessert li:before {
+    background : $dessert;
+}
+
+.dessert li:after {
+    border-left-color:$dessert;
+}
+.salades {
+    color:$salade;
+    fill:$salade;
+}
+
+.salades dd {
+background:$salade;
+color:white;
+
+}
+.salades_titre {
+ background-color:$salade;
+}
+.salades li:before {
+    background : $salade;
+}
+.salades li:after {
+    border-left-color:$salade;
+}
+.plats {
+    color:$plats;
+    fill:$plats;
+}
+
+.plats dd {
+background:$plats;
+color:white;
+
+}
+.plats_titre {
+ background-color:$plats;
+}
+.plats li:before {
+    background : $plats;
+}
+.plats li:after {
+    border-left-color:$plats;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'cake';
+    src:       url('cake.ttf')  format('truetype');
+  }
